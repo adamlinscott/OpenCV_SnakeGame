@@ -133,8 +133,7 @@ while(True):
 		break
 	
 	# Display the resulting frame
-	cv2.imshow('Diff Left',cropped_top)
-	cv2.imshow('Diff Right',cropped_bot)
+	cv2.imshow('Diff',diff)
 	cv2.imshow('Game',draw)
 	#cv2.imshow('frame',draw)
 	if cv2.waitKey(1) & 0xFF == ord('q'):
