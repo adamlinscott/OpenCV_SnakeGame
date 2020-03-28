@@ -129,7 +129,7 @@ while(True):
 	DrawSnake(draw)
 	
 	if snake.head[0] > w or snake.head[0] < 0 or snake.head[1] > h or snake.head[1] < 0 or snake.hasCrashed():
-		print "You lose! You got " + str(snake.len-2) + " points!"
+		print("You lose! You got " + str(snake.len-2) + " points!")
 		break
 	
 	# Display the resulting frame
